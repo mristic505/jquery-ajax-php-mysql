@@ -7,6 +7,8 @@ header("Content-Type:application/json");
 
 
 require_once('meekrodb.2.3.class.php');
+
+// Change this to your DB credentials as needed
 DB::$user = 'root';
 DB::$password = 'root';
 DB::$dbName = 'testdb';
