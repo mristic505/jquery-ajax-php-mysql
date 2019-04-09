@@ -38,7 +38,7 @@ $captcha_secret_key = '6LcEHG8UAAAAAFbE3g84l8Eq1913UHP0032f-B3-'; // Change this
 if (empty($first_name)) {
     $errors['first_name'] = 'Please enter your first name';
 }
-if (empty($first_name)) {
+if (empty($last_name)) {
     $errors['last_name'] = 'Please enter your last name';
 }
 
